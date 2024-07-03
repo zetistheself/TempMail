@@ -1,0 +1,13 @@
+.message:hover {
+  background: var(--bs-secondary-bg);
+}
+
+.email:hover {
+  color: var(--bs-info-text-emphasis);
+  text-decoration: underline;
+  transition: transform .7s ease-in-out;
+}
+
+img:hover {
+  transform: rotate(122deg);
+}
