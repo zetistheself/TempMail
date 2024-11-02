@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Contact - HackerTales.ru</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Poppins:wght@600&display=swap">
+    <link rel="stylesheet" href="../static/assets3/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/assets3/css/Footer-Basic-icons.css">
+    <link rel="stylesheet" href="../static/assets3/css/styles.css">
+    <link rel="stylesheet" href="../static/assets3/css/untitled.css">
+    <style>
+        /* Общий стиль */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f9fafc;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        h1 {
+            font-family: 'Poppins', sans-serif;
+            font-weight: 600;
+            font-size: 2.5rem;
+            color: #222;
+            text-align: center;
+            margin: 1.5rem 0;
+        }
+
+        .navbar {
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            padding: 0.5rem 1rem;
+        }
+
+        .navbar-nav .nav-link {
+            font-weight: 500;
+            color: #444;
+            transition: color 0.2s;
+            padding: 0.5rem 1rem;
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #1d72b8;
+        }
+
+        .container {
+            width: 100%;
+            padding: 2rem;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            text-align: center; /* Центрирование текста внутри контейнера */
+        }
+
+        footer {
+            background-color: #f9fafc;
+            color: #666;
+            padding: 1rem;
+            border-top: 1px solid #e0e0e0;
+            text-align: center;
+        }
+
+        footer ul {
+            list-style: none;
+            padding: 0;
+            margin-bottom: 0.5rem;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+
+        footer ul li {
+            display: inline-block;
+            color: #888;
+            font-size: 0.85rem;
+        }
+
+        footer ul li:hover {
+            color: #222;
+        }
+
+        footer p {
+            font-size: 0.75rem;
+            color: #aaa;
+            margin: 0;
+        }
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .content {
+            flex: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>HackerTales.ru</h1>
+            <nav class="navbar navbar-expand-md bg-body">
+                <div class="container-fluid">
+                    <button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1">
+                        <span class="visually-hidden">Toggle navigation</span>
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-center" id="navcol-1">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a class="nav-link" href="/">Inbox</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="/contact">Contact</a></li>
+                            <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="content">
+            <div class="container">
+                <label class="form-label" style="font-size: 20px;">
+                    Email: <em><span style="text-decoration: underline;">root@hackertales.ru</span></em>
+                </label>
+                <br>
+                <label class="form-label" style="font-size: 20px;">
+                    Github: <em><span style="text-decoration: underline;">&nbsp;https://github.com/zetistheself</span></em>
+                </label>
+            </div>
+        </main>
+
+        <footer>
+            <ul class="list-inline">
+                <li><a href="#">Web design</a></li>
+                <li><a href="#">Development</a></li>
+                <li><a href="#">Hosting</a></li>
+            </ul>
+            <p>© 2024 HackerTales.ru</p>
+        </footer>
+    </div>
+
+    <script src="../static/assets3/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

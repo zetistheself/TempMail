@@ -1,0 +1,8 @@
+.message:hover {
+  background: var(--bs-secondary-bg);
+}
+
+.email:hover {
+  color: var(--bs-info-text-emphasis);
+}
+
